@@ -6,6 +6,8 @@
 
   --font-geist-sans: 'geist-sans', sans-serif;
   --font-geist-mono: 'geist-mono', sans-serif;
+
+
 }
 
 @theme inline {
@@ -17,6 +19,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+
+    --primary-background: #815356;
+    --gray: #333333;
+
     --background: #0a0a0a;
     --foreground: #ededed;
   }
